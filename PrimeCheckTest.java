@@ -23,6 +23,7 @@ public class PrimeCheckTest {
   @Test
   public void testPrimes() {
     /* ToDo: insert a test here */
+    assertEquals("teste ob 5 eine Primzahl ist", true, PrimeCheck.isPrime(5));
     assertEquals("this will fail", true, false);
   }
 
@@ -30,6 +31,7 @@ public class PrimeCheckTest {
   @Test
   public void testNonPrimes() {
     /* ToDo: insert a test here */
+    assertEquals("teste ob 8 eine Primzahl ist", true, PrimeCheck.isPrime(8));
     assertEquals("this will fail", true, false);
   }
 }

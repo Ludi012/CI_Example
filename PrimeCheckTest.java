@@ -30,6 +30,6 @@ public class PrimeCheckTest {
   @Test
   public void testNonPrimes() {
     /* ToDo: insert a test here */
-    assertEquals("Test 4", true, PrimeCheck.isPrime(4));
+    assertEquals("Test 4", false, PrimeCheck.isPrime(4));
   }
 }
